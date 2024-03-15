@@ -29,6 +29,9 @@ nav li {
     font-size: 20px;
     letter-spacing: 3px;
 }
+nav li:nth-child(4):hover{
+    color:white
+}
 nav img {
     height: 30px;
     width: auto;
@@ -131,11 +134,18 @@ article{
     background-image: linear-gradient(to right,#f7e9a8,#f58cee);
     padding: 5%;
     display: flex;
+    flex-direction: column;
         flex-wrap: wrap;
         gap: 25px;
         justify-content: center;
         align-items: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);  
+}
+.article-imgs{
+    display: flex;
+    gap: 20px;
+    order: 2;
+
 }
 .two-images{
     display: flex;
